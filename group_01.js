@@ -34,6 +34,7 @@ function bonusPercent(currentEmployee){
   var rating = currentEmployee[3];
 
   var bonus = 0;
+  if (rating < 3) { return 0;}
   if ( rating == 3) { bonus = 0.04;}
   else if ( rating == 4) { bonus = 0.06;}
   else if ( rating == 5) { bonus = 0.10;}
