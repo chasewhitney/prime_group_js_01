@@ -22,8 +22,6 @@ function bonusCalc(employees){
     currentArray.push(Math.floor((bonusPercent(currentEmployee) + 1) * currentEmployee[2]));
     currentArray.push((Math.floor(bonusPercent(currentEmployee) * currentEmployee[2])));
     newArray.push(currentArray);
-
-    //currentArray.push()
   }
   console.log(newArray);
 }
